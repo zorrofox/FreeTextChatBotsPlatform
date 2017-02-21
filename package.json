@@ -1,0 +1,40 @@
+{
+  "name": "FreeTextChatBotsMessagePlatform",
+  "version": "2.0.0",
+  "main": "MessagePlatformServer.js",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Tamer Qumhieh - Oracel A-Team - Modified by SCC(Hysun He/Kyle Zhang)",
+  "license": "MIT",
+  "contributors": [],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "botly": "^1.3.4",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "jsonschema": "^1.1.0",
+    "underscore": "^1.8.3",
+    "url": "^0.11.0",
+    "ws": "^1.1.1",
+    "cookie-parser": "^1.4.3",
+    "fs": "0.0.1-security",
+    "line-messaging": "^1.1.6",
+    "moment": "^2.16.0",
+    "multer": "^1.2.0",
+    "request": "^2.79.0",
+    "winston": "^2.3.0",
+    "wechat": "2.0.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js"
+  }
+}
